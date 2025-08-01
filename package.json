@@ -12,6 +12,7 @@
     "db:push": "drizzle-kit push",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -r https://github.com/vigneshwaran484/symposium.git"
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
