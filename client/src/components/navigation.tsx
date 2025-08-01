@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import logo from "C:/Users/HP/Downloads/ram/JetSigma/photos/logo1.png"; // Adjust the path as necessary
+
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +19,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <img 
-              src={logo}
+              src="https://i.postimg.cc/SJGjQf7n/logo.png"
               alt="SJCE Logo" 
               className="h-10 w-10 rounded-full mr-3"
             />
