@@ -48,26 +48,32 @@ export default function RulesSection() {
           </div>
 {/* Important Dates Section */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-xl border border-blue-500">
-                <h3 className="font-display font-semibold text-2xl text-white mb-6 text-center">
-                  Important Dates
-                </h3>
-                <div className="flex flex-col items-center">
-                  <div className="text-center mb-6">
-                    <p className="text-lg text-blue-100 mb-2">Event Date:</p>
-                    <p className="font-display font-bold text-3xl text-white">
-                      Wednesday, 17th SEPTEMBER 2025
-                    </p>
-                  </div>
-                  <a
-                    href="https://sympo.stjosephs-engg.cc/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors transform hover:scale-105"
-                  >
-                    Register Now
-                  </a>
-                </div>
-              </div>
+  <h3 className="font-display font-semibold text-2xl text-white mb-6 text-center">
+    Important Dates
+  </h3>
+  <div className="flex flex-col items-center">
+    <div className="text-center mb-6">
+      <p className="text-lg text-blue-100 mb-2">Event Date:</p>
+      <p className="font-display font-bold text-3xl text-white">
+        Wednesday, 13th SEPTEMBER 2025
+      </p>
+    </div>
+    <div className="text-sm text-blue-100 text-center mb-6">
+      <p className="font-display font-semibold text-2xl text-white mb-6 text-center">Last date for registration: <strong>28-08-2025</strong></p>
+      <p className="font-display font-semibold text-2xl text-white mb-4 text-center">Intimation of selection: <strong>30-08-2025</strong></p>
+      <p className="font-display font-semibold text-2x1 text-white mb-2 text-center">Only through e-mail</p>
+    </div>
+    <a
+      href="https://sympo.stjosephs-engg.cc/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors transform hover:scale-105"
+    >
+      Register Now
+    </a>
+  </div>
+</div>
+
           {/* Bus Routes Section */}
           <div className="mt-12 bg-slate-700 p-8 rounded-xl border border-slate-600">
             <h3 className="font-display font-semibold text-2xl text-blue-300 mb-8 text-center">
@@ -92,7 +98,7 @@ export default function RulesSection() {
 
               <div className="text-center p-4 bg-slate-800 rounded-lg">
                 <h4 className="font-semibold text-white mb-3">From Adyar</h4>
-                <p className="text-blue-300 font-mono text-lg">19B, 21H</p>
+                <p className="text-blue-300 font-mono text-lg">19B, 19K, 21H</p>
               </div>
 
               <div className="text-center p-4 bg-slate-800 rounded-lg">
@@ -102,7 +108,7 @@ export default function RulesSection() {
 
               <div className="text-center p-4 bg-slate-800 rounded-lg">
                 <h4 className="font-semibold text-white mb-3">From Saidapet</h4>
-                <p className="text-blue-300 font-mono text-lg">19B</p>
+                <p className="text-blue-300 font-mono text-lg">19B,</p>
               </div>
             </div>
 
@@ -119,6 +125,40 @@ export default function RulesSection() {
               </a>
             </div>
           </div>
+          {/* Contact Details Section */}
+<div className="mt-12 bg-gradient-to-br from-slate-700 to-slate-800 p-8 rounded-xl border border-slate-600">
+  <h3 className="font-display font-semibold text-2xl text-blue-300 mb-8 text-center">
+    Contact Details
+  </h3>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-300">
+    
+    {/* Organizers */}
+    <div>
+      <h4 className="text-lg font-semibold text-white mb-4 border-b border-slate-500 pb-2">Organizers</h4>
+      <ul className="space-y-2">
+        <li>Mr. S. Shakunth – <a href="tel:7871452052" className="text-blue-400 hover:underline">7871452052</a></li>
+        <li>Mr. A. Alagumanikanadan – <a href="tel:9003449592" className="text-blue-400 hover:underline">9003449592</a></li>
+        <li>Mr. P. Kanagarasu – <a href="tel:7806910299" className="text-blue-400 hover:underline">7806910299</a></li>
+      </ul>
+    </div>
+
+    {/* Coordinators */}
+    <div>
+      <h4 className="text-lg font-semibold text-white mb-4 border-b border-slate-500 pb-2">Coordinators</h4>
+      <ul className="space-y-2">
+        <li>Dr. K. Suresh – <a href="tel:8344475333" className="text-blue-400 hover:underline">8344475333</a></li>
+        <li>Dr. P. Agilan – <a href="tel:9789643221" className="text-blue-400 hover:underline">9789643221</a></li>
+      </ul>
+    </div>
+  </div>
+
+  {/* Email & Website */}
+  <div className="mt-8 text-center space-y-2 text-gray-300">
+    <p><span className="font-semibold text-white">e-Mail:</span> <a href="mailto:mathssjce@gmail.com" className="text-blue-400 hover:underline">mathssjce@gmail.com</a></p>
+    <p><span className="font-semibold text-white">Website:</span> <a href="https://kernel2k25.netlify.app" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">kernel2k25.netlify.app</a></p>
+  </div>
+</div>
+
         </div>
       </div>
     </section>
