@@ -64,7 +64,7 @@ export default function RulesSection() {
       <p className="font-display font-semibold text-2x1 text-white mb-2 text-center">Only through e-mail</p>
     </div>
     <a
-      href="https://sympo.stjosephs-engg.cc/"
+      href="https://forms.gle/W15XosJ5qzrWvwKG8"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors transform hover:scale-105"
@@ -155,7 +155,6 @@ export default function RulesSection() {
   {/* Email & Website */}
   <div className="mt-8 text-center space-y-2 text-gray-300">
     <p><span className="font-semibold text-white">e-Mail:</span> <a href="mailto:mathssjce@gmail.com" className="text-blue-400 hover:underline">mathssjce@gmail.com</a></p>
-    <p><span className="font-semibold text-white">Website:</span> <a href="https://kernel2k25.netlify.app" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">kernel2k25.netlify.app</a></p>
   </div>
 </div>
 
