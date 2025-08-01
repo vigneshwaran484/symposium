@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,15 +16,16 @@ export default function Navigation() {
     <nav className="bg-slate-800/95 backdrop-blur-sm fixed w-full z-50 top-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <img 
+          <div className="flex items-center space-x-2">
+            <img
               src="https://i.postimg.cc/SJGjQf7n/logo.png"
-              alt="SJCE Logo" 
-              className="h-10 w-10 rounded-full mr-3"
+              alt="Jet Sigma 2025 Logo"
+              width="60"
+              height="60"
             />
             <span className="font-display font-bold text-lg text-white">JetSigma25</span>
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
@@ -63,7 +63,7 @@ export default function Navigation() {
               </a>
             </div>
           </div>
-          
+
           {/* Mobile menu button */}
           <div className="md:hidden">
             <Button
@@ -76,7 +76,7 @@ export default function Navigation() {
             </Button>
           </div>
         </div>
-        
+
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
