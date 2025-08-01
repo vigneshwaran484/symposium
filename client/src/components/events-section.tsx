@@ -65,7 +65,7 @@ export default function EventsSection() {
       title: "GRID MATH",
       subtitle: "(MATH CROSSWORD)",
       tagline: "Crack the Clues, Conquer the Math Grid!",
-      image: "npm run",
+      image: "https://jetsigma24mathssymposium.netlify.app/img/puzzle-transformed.jpeg",
       alt: "Math Crossword",
       rules: [
         "Two participants per team",
