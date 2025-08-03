@@ -26,7 +26,7 @@ export default function EventsSection() {
       title: "MATH ENIGMES",
       subtitle: "(MATH PUZZLES)",
       tagline: "Unravel the Mystery of Numbers!",
-      image: "https://jetsigma24mathssymposium.netlify.app/img/download.png",
+      image: "'../photos/infinity.jpg",
       alt: "Math Puzzles",
       rules: [
         "Two participants per team",
